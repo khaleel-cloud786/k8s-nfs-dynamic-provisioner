@@ -6,7 +6,7 @@ metadata:
    type: nfs
    storage: nfs
 spec:
-  storageClassName: manual
+  storageClassName: managed-nfs-storage
   accessModes:
     - ReadWriteMany
   resources:
